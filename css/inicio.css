@@ -1,1 +1,10 @@
-/*# sourceMappingURL=inicio.css.map */
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background: #333853;
+  color: #3C4262;
+  font-family: "Roboto", sans-serif;
+}/*# sourceMappingURL=inicio.css.map */

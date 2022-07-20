@@ -1,1 +1,1 @@
-{"version":3,"sources":[],"names":[],"mappings":"","file":"inicio.css"}
+{"version":3,"sources":["inicio.scss","inicio.css","_cores.scss"],"names":[],"mappings":"AAIA;EACI,UAAA;EACA,SAAA;ACHJ;;ADQA;EACI,mBEZe;EFaf,cEZc;EFad,iCALW;ACAf","file":"inicio.css"}
