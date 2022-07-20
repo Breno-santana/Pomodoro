@@ -9,8 +9,38 @@
 
 $fonte-roboto: 'Roboto', sans-serif;
 
+@mixin flex() {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+@mixin flex2() {
+    display: flex;
+    flex-direction: row;
+}
+
 body{
+    //@include flex();
+
+    position: relative;
+
+    .cabecalho{
+        h1{
+            text-align: center;
+        }
+    }
+
     background: $azul-mais-escuro;
     color: $azul-mais-claro;
     font-family: $fonte-roboto;
+
+    #container{
+        //@include flex2();
+        position: absolute;
+        top: 50%;
+        right: 50%;
+        transform: translate(3rem, 15rem);
+    }
 }

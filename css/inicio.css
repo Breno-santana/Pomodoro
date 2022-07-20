@@ -4,7 +4,17 @@
 }
 
 body {
+  position: relative;
   background: #333853;
-  color: #3C4262;
+  color: #b2b8da;
   font-family: "Roboto", sans-serif;
+}
+body .cabecalho h1 {
+  text-align: center;
+}
+body #container {
+  position: absolute;
+  top: 50%;
+  right: 50%;
+  transform: translate(3rem, 15rem);
 }/*# sourceMappingURL=inicio.css.map */
