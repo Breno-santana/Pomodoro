@@ -16,5 +16,10 @@ body #container {
   position: absolute;
   top: 50%;
   right: 50%;
-  transform: translate(3rem, 15rem);
-}/*# sourceMappingURL=inicio.css.map */
+  transform: translate(6rem, 15rem);
+}
+body #container .box-cronometro {
+  display: flex;
+  flex-direction: row;
+}
+/*# sourceMappingURL=inicio.css.map */

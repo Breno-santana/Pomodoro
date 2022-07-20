@@ -11,14 +11,13 @@ $fonte-roboto: 'Roboto', sans-serif;
 
 @mixin flex() {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+    flex-direction: row;
 }
 
 @mixin flex2() {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    justify-content: center;
 }
 
 body{
@@ -41,6 +40,33 @@ body{
         position: absolute;
         top: 50%;
         right: 50%;
-        transform: translate(3rem, 15rem);
+        transform: translate(6rem, 15rem);
+
+        .box-cronometro{
+            @include flex();
+        }
+    }
+}
+
+
+.ex{
+    @include flex();
+
+    .box-ex{
+        width: 10rem;
+        height: 8rem;
+        background: $azul-mais-escuro;
+        box-shadow: 2px 2px 2px 2px black;
+    }
+
+    .icons{
+        @include flex2();
+        
+
+        img{
+            width: 3rem;
+            height: 3rem;
+            margin: .5rem 0;
+        }
     }
 }
