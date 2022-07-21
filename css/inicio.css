@@ -11,15 +11,37 @@ body {
 }
 body .cabecalho h1 {
   text-align: center;
+  margin-top: 5rem;
+  font-size: 3rem;
 }
 body #container {
   position: absolute;
   top: 50%;
   right: 50%;
-  transform: translate(6rem, 15rem);
+  transform: translate(24rem, 10rem);
 }
-body #container .box-cronometro {
+body #container .section-cronometro {
   display: flex;
   flex-direction: row;
 }
-/*# sourceMappingURL=inicio.css.map */
+body #container .section-cronometro .box-trabalho, body #container .section-cronometro .box-pausa, body #container .section-cronometro .box-sessao {
+  margin: 0rem 3rem;
+}
+body #container .section-cronometro .saida-minuto, body #container .section-cronometro .saida-pausa, body #container .section-cronometro .saida-sessao {
+  background: #3b4160;
+  width: 10rem;
+  height: 8rem;
+  border-radius: 0.5rem;
+  box-shadow: 0px 3px 2px 0px rgba(0, 0, 0, 0.582);
+}
+body #container .section-cronometro p {
+  text-align: center;
+  padding: 1rem 0;
+  font-weight: bold;
+}
+body .box-btn {
+  position: absolute;
+  top: 50%;
+  right: 50%;
+  transform: translate(2.5rem, 30rem);
+}/*# sourceMappingURL=inicio.css.map */
