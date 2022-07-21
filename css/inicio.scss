@@ -21,8 +21,6 @@ $fonte-roboto: 'Roboto', sans-serif;
 }
 
 body{
-    //@include flex();
-
     position: relative;
 
     .cabecalho{ 
@@ -38,20 +36,49 @@ body{
     font-family: $fonte-roboto;
 
     #container{ 
-        //@include flex2();
         position: absolute;
         top: 50%;
         right: 50%;
-        transform: translate(24rem, 10rem);
+        transform: translate(28rem, 10rem);
 
         .section-cronometro{
             @include flex();
 
-            .box-trabalho, .box-pausa, .box-sessao{
+            .box-trabalho{
                 margin: 0rem 3rem;
+
+                img{
+                    width: 40px;
+                    height: 40px;
+                    padding: .5rem
+                }
             }
 
-            .saida-minuto, .saida-pausa, .saida-sessao{
+            .box-pausa{
+                margin: 0rem 3rem;
+
+                img{
+                    width: 40px;
+                    height: 40px;
+                    padding: .5rem
+                }
+            }
+
+            .box-sessao{
+                margin: 0rem 3rem;
+
+                img{
+                    width: 40px;
+                    height: 40px;
+                    padding: .5rem
+                }
+            }
+
+            .box-icones{
+                @include flex();
+            }
+
+            .saida-minuto{
                 background: #3b4160;
                 width: 10rem;
                 height: 8rem;
@@ -59,10 +86,31 @@ body{
                 box-shadow: 0px 3px 2px 0px rgba(0, 0, 0, 0.582);
             }
 
+            .saida-pausa{
+                background: #3b4160;
+                width: 10rem;
+                height: 8rem;
+                border-radius: .5rem;
+                box-shadow: 0px 3px 2px 0px rgba(0, 0, 0, 0.582);
+            }
+
+            .saida-sessao{
+                background: #3b4160;
+                width: 10rem;
+                height: 8rem;
+                border-radius: .5rem;
+                box-shadow: 0px 3px 2px 0px rgba(0, 0, 0, 0.582);
+            }
+
+            .icon-flex{
+                @include flex2();
+            }
+
             p{
                 text-align: center;
                 padding: 1rem 0;
                 font-weight: bold;
+                font-size: 1.2rem;
             }
         }
     }
@@ -71,6 +119,17 @@ body{
         position: absolute;
         top: 50%;
         right: 50%;
-        transform: translate(2.5rem, 30rem);
+        transform: translate(7rem, 24rem);
+
+        .btn{
+            padding: 1rem 3.3rem;
+            background: #3b4160;
+            border: none;
+            border-radius: .5rem;
+            box-shadow: 0px 3px 2px 0px rgba(0, 0, 0, 0.582);
+            color: $azul-mais-claro;
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
     }
 }

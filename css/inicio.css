@@ -18,30 +18,85 @@ body #container {
   position: absolute;
   top: 50%;
   right: 50%;
-  transform: translate(24rem, 10rem);
+  transform: translate(28rem, 10rem);
 }
 body #container .section-cronometro {
   display: flex;
   flex-direction: row;
 }
-body #container .section-cronometro .box-trabalho, body #container .section-cronometro .box-pausa, body #container .section-cronometro .box-sessao {
+body #container .section-cronometro .box-trabalho {
   margin: 0rem 3rem;
 }
-body #container .section-cronometro .saida-minuto, body #container .section-cronometro .saida-pausa, body #container .section-cronometro .saida-sessao {
+body #container .section-cronometro .box-trabalho img {
+  width: 40px;
+  height: 40px;
+  padding: 0.5rem;
+}
+body #container .section-cronometro .box-pausa {
+  margin: 0rem 3rem;
+}
+body #container .section-cronometro .box-pausa img {
+  width: 40px;
+  height: 40px;
+  padding: 0.5rem;
+}
+body #container .section-cronometro .box-sessao {
+  margin: 0rem 3rem;
+}
+body #container .section-cronometro .box-sessao img {
+  width: 40px;
+  height: 40px;
+  padding: 0.5rem;
+}
+body #container .section-cronometro .box-icones {
+  display: flex;
+  flex-direction: row;
+}
+body #container .section-cronometro .saida-minuto {
   background: #3b4160;
   width: 10rem;
   height: 8rem;
   border-radius: 0.5rem;
   box-shadow: 0px 3px 2px 0px rgba(0, 0, 0, 0.582);
 }
+body #container .section-cronometro .saida-pausa {
+  background: #3b4160;
+  width: 10rem;
+  height: 8rem;
+  border-radius: 0.5rem;
+  box-shadow: 0px 3px 2px 0px rgba(0, 0, 0, 0.582);
+}
+body #container .section-cronometro .saida-sessao {
+  background: #3b4160;
+  width: 10rem;
+  height: 8rem;
+  border-radius: 0.5rem;
+  box-shadow: 0px 3px 2px 0px rgba(0, 0, 0, 0.582);
+}
+body #container .section-cronometro .icon-flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
 body #container .section-cronometro p {
   text-align: center;
   padding: 1rem 0;
   font-weight: bold;
+  font-size: 1.2rem;
 }
 body .box-btn {
   position: absolute;
   top: 50%;
   right: 50%;
-  transform: translate(2.5rem, 30rem);
+  transform: translate(7rem, 24rem);
+}
+body .box-btn .btn {
+  padding: 1rem 3.3rem;
+  background: #3b4160;
+  border: none;
+  border-radius: 0.5rem;
+  box-shadow: 0px 3px 2px 0px rgba(0, 0, 0, 0.582);
+  color: #b2b8da;
+  font-size: 1.5rem;
+  font-weight: bold;
 }/*# sourceMappingURL=inicio.css.map */
