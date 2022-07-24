@@ -68,10 +68,22 @@ body{
     margin: 3rem 0;
 
         .time{
+            position: relative;
             width: 20rem;
             height: 20rem;
             background: $azul-fundo-botao-saida-js;
             border-radius: 50%;
+
+            .circle-animation-time{
+                position: absolute;
+                top: 8%;
+                right: 8%;
+                background: none;
+                border: 6px solid $verde;
+                border-radius: 50%;
+                width: 16rem;
+                height: 16rem;
+            }
         }
 
         .pause{
