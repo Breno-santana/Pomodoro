@@ -23,8 +23,24 @@ body header .btn-inicio {
   border: none;
   border-radius: 0.5rem;
   background: #3b4160;
-  box-shadow: 0px 3px 4px 0px rgba(0, 0, 0, 0.452);
+  box-shadow: 0px 3px 4px 0px rgba(0, 0, 0, 0.4509803922);
   color: #b2b8da;
   font-size: 1.5rem;
   font-weight: bold;
+}
+body header .btn-inicio:hover {
+  background: #333853;
+}
+body main {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 7rem;
+}
+body main .time {
+  width: 20rem;
+  height: 20rem;
+  background: #3b4160;
+  border-radius: 50%;
 }/*# sourceMappingURL=pomodoro.css.map */

@@ -20,6 +20,14 @@
     justify-content: center;
 }
 
+@mixin flex3() {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 7rem;
+}
+
 body{
 
     $fonte-roboto: 'Roboto', sans-serif;
@@ -40,11 +48,27 @@ body{
             padding: 1.3rem 2.5rem;
             border: none;
             border-radius: .5rem;
-            background: #3b4160;
-            box-shadow: 0px 3px 4px 0px rgba(0, 0, 0, 0.452);
+            background: $azul-fundo-botao-saida-js;
+            box-shadow: 0px 3px 4px 0px #00000073;
             color: $azul-mais-claro;
             font-size: 1.5rem;
             font-weight: bold;
+
+            &:hover{
+                background: $azul-mais-escuro;
+            }
+        }
+    }
+
+    main{
+
+    @include flex3();
+
+        .time{
+            width: 20rem;
+            height: 20rem;
+            background: $azul-fundo-botao-saida-js;
+            border-radius: 50%;
         }
     }
 }
