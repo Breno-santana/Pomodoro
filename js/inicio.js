@@ -1,8 +1,8 @@
 //--Variáveis--//
 let exitNum = 0;
-let saidaTrabalho = document.querySelector('div.work-exit').innerHTML = exitNum;
-let pausaTrabalho = document.querySelector('div.pause-exit').innerHTML = exitNum;
-let sectionTrabalho = document.querySelector('div.sections-exit').innerHTML = exitNum;
+document.querySelector('div.work-exit').innerHTML = exitNum;
+document.querySelector('div.pause-exit').innerHTML = exitNum;
+document.querySelector('div.sections-exit').innerHTML = exitNum;
 
 //--Funcões dos botões (up/down) para saida.js--//
 
