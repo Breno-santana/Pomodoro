@@ -90,6 +90,9 @@ body main .pause .btn-pause {
   box-shadow: 0px 3px 4px 0px rgba(24, 17, 17, 0.4509803922);
   padding: 1.5rem 2rem;
 }
+body main .pause .btn-pause:hover {
+  background: #333853;
+}
 body main .pause .btn-pause img {
   width: 2.5rem;
   height: 2.5rem;
