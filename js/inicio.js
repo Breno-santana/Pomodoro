@@ -38,7 +38,7 @@ function btnDecremento2(){
 
 //Saída sessões
 function btnIncremento3(){
-    if(exitNum <= 9){
+    if(exitNum <= 2){
         exitNum = exitNum + 1;
         document.querySelector('div.sections-exit').innerHTML = exitNum;
     }
