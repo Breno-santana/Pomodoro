@@ -35,7 +35,11 @@ main .section-cronometro .box-config-geral .icones .icon-flex {
   flex-direction: column;
   justify-content: center;
 }
-main .section-cronometro .box-config-geral .icones .icon-flex img {
+main .section-cronometro .box-config-geral .icones .icon-flex button {
+  background: none;
+  border: none;
+}
+main .section-cronometro .box-config-geral .icones .icon-flex button img {
   width: 40px;
   height: 40px;
   padding: 0.5rem;
@@ -46,6 +50,9 @@ main .section-cronometro .box-config-geral .icones .saida-js {
   height: 8rem;
   border-radius: 0.5rem;
   box-shadow: 0px 3px 2px 0px rgba(0, 0, 0, 0.582);
+  font-size: 6rem;
+  text-align: center;
+  line-height: 8.5rem;
 }
 main .section-cronometro .box-config-geral p {
   text-align: center;
@@ -73,6 +80,7 @@ footer .btn {
   color: #b2b8da;
   font-size: 1.5rem;
   font-weight: bold;
+  cursor: pointer;
 }
 footer .btn:hover {
   background: #333853;
